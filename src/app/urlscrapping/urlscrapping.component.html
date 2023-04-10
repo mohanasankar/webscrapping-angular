@@ -1,0 +1,12 @@
+<form [formGroup]="scrapForm" (ngSubmit)="onSubmit()">
+    <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">URL</span>
+        </div>
+        <input type="text" aria-label="url" id="url" formControlName="myInput" class="form-control">
+        <button type="submit"  class="btn btn-primary">Get Scrap Data</button>
+      </div>
+</form>
+
+
+
